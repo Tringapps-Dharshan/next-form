@@ -60,3 +60,31 @@
   background-color: #262344;
   border: none;
 }
+
+.displayform {
+  margin: 20px 50px;
+}
+
+.formfooter {
+  padding: 20px;
+  color: #08EBBE;
+  color:aqua;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  width: 765px;
+  height: 861px;
+}
+
+.footer{
+  display: flex;
+}
+
+.submitbutton{
+  height: 54px;
+  width: 370px;
+  border: none;
+  background-color: #008CFE;
+}

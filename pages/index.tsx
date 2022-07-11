@@ -20,12 +20,87 @@ const Home: NextPage = () => {
               Chase your Luck by Pre-Registering with Us!
             </div>
           </div>
-          <form>
+          <form className={styles.displayform}>
             <div className="row">
-              <div className="col-sm-3">
-                <small >First Name *</small>
-                <input type="text" name='firstname' placeholder='Enter first name' className={styles.inputfield}/>
+              <div className="col-sm-6">
+                <small className='text-light'>First Name *</small>
+                <input type="text" name='firstname' placeholder='Enter first name' className={styles.inputfield} />
               </div>
+              <div className="col-sm-6">
+                <small className='text-light'>Middle Name *</small>
+                <input type="text" name='middlename' placeholder='Enter first name' className={styles.inputfield} />
+              </div>
+            </div>
+            <div className='row'>
+              <div className="col-sm-6">
+                <small className='text-light'>Last Name *</small>
+                <input type="text" name='lastname' placeholder='Enter first name' className={styles.inputfield} />
+              </div>
+              <div className="col-sm-6 radio">
+                <small className='text-light form-label'>Gender</small><br />
+                <input type='checkbox' className='form-check-input' />
+              </div>
+            </div>
+            <div className='row'>
+              <div className="col-sm-6">
+                <small className='text-light'>Last Name *</small>
+                <input type="date" name='date' placeholder='Enter first name' className={styles.inputfield} />
+              </div>
+              <div className="col-sm-6 radio">
+                <small className='text-light'>Email ID *</small><br />
+                <input type='email' className={styles.inputfield} />
+              </div>
+            </div>
+            <div className='row'>
+              <div className="col-sm-6">
+                <small className='text-light'>Phone</small>
+                <input type="telephone" name='date' placeholder='Enter first name' className={styles.inputfield} />
+              </div>
+              <div className="col-sm-6 radio">
+                <small className='text-light'>Address Line 1</small><br />
+                <input type='email' className={styles.inputfield} />
+              </div>
+            </div>
+            <div className='row'>
+              <div className="col-sm-6">
+                <small className='text-light'>Address Line 2</small>
+                <input type="text" name='date' placeholder='Enter first name' className={styles.inputfield} />
+              </div>
+              <div className="col-sm-6 radio">
+                <small className='text-light'>Country</small><br />
+                <select className={styles.inputfield}>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+            <div className='row'>
+              <div className="col-sm-6">
+                <small className='text-light'>City</small>
+                <select className={styles.inputfield}>
+                  <option></option>
+                </select>
+              </div>
+              <div className="col-sm-6 radio">
+                <small className='text-light'>Zip Code</small><br />
+                <select className={styles.inputfield}>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+            <div className="row">
+              <div className={styles.footer}>
+                <div className={styles.formfooter}>
+                  <input type="checkbox" />
+                  I agree with the Terms & Conditions
+                </div>
+                <div className={styles.formfooter}>
+                  <input type="checkbox" />
+                  Please confirm that you are alteast 18 years old
+                </div>
+              </div>
+            </div>
+            <div className='row'>
+              <button type='submit' className={styles.submitbutton}>REGISTER</button>
             </div>
           </form>
         </div>
