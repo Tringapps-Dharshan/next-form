@@ -31,7 +31,6 @@
 
 .logo {
   box-shadow: 0 3px 65px 0 #D864FF;
-  background-color: red;
 }
 
 .headertext {
@@ -74,8 +73,6 @@
   font-style: italic;
   letter-spacing: 0.2px;
   line-height: 16px;
-  width: 765px;
-  height: 861px;
 }
 
 .footer{

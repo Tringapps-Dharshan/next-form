@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.mask}>
           <div className={styles.headerpart}>
-            <Image src={iclogo} />
+            {/* <Image src={iclogo} /> */}
             <div className={styles.headertext}>
               Chase your Luck by Pre-Registering with Us!
             </div>
@@ -87,7 +87,6 @@ const Home: NextPage = () => {
                 </select>
               </div>
             </div>
-            <div className="row">
               <div className={styles.footer}>
                 <div className={styles.formfooter}>
                   <input type="checkbox" />
@@ -98,10 +97,9 @@ const Home: NextPage = () => {
                   Please confirm that you are alteast 18 years old
                 </div>
               </div>
-            </div>
-            <div className='row'>
-              <button type='submit' className={styles.submitbutton}>REGISTER</button>
-            </div>
+              <div className='col'>
+                <button type='submit' className={styles.submitbutton}>REGISTER</button>
+              </div>
           </form>
         </div>
       </main>
