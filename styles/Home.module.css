@@ -80,6 +80,9 @@
 }
 
 .submitbutton{
+  font-family: roboto;
+  color: white;
+  border-radius: 8px;
   height: 54px;
   width: 370px;
   border: none;
