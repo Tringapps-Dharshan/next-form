@@ -12,7 +12,7 @@
 }
 
 .mask {
-  height: 951px;
+  height: auto;
   width: 860px;
   border-radius: 20px;
   background-color: #1B183B;
@@ -62,17 +62,25 @@
 
 .displayform {
   margin: 20px 50px;
+  line-height: 2;
+}
+
+.displayform::-webkit-scrollbar{
+  width:8px;
 }
 
 .formfooter {
   padding: 20px;
-  color: #08EBBE;
-  color:aqua;
-  font-family: Roboto;
-  font-size: 14px;
   font-style: italic;
   letter-spacing: 0.2px;
   line-height: 16px;
+}
+
+.footertext, .footererror{
+  color: #08EBBE;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 15px;
 }
 
 .footer{
@@ -87,4 +95,75 @@
   width: 370px;
   border: none;
   background-color: #008CFE;
+}
+
+.submitbutton:hover{
+  background-color: #198ae7;
+}
+
+.formlabel{
+  color: #767489;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.formgender{
+  color: #767489;
+  margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+
+.countrycode{
+  height: 48px;
+  width: 68px; 
+  text-align: center;
+}
+
+.inputphone{
+  height: 48px;
+  width: 285px;
+}
+
+.countrycode, .inputphone{
+  border-radius: 12px;
+  background-color: #262344;
+  border: none;
+}
+
+.radio{
+  height: 58px;
+  width: 370px;
+}
+
+.phone{
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectoptions{
+  color: #FFFFFF;
+}
+
+.error{
+  color: rgb(246, 104, 104);
+  font-size: small;
+}
+
+.aterms{
+  text-decoration: underline;
+}
+
+.aterms:hover{
+  color: aqua;
+}
+
+.footererror{
+  color: rgb(246, 104, 104);
+}
+
+.submitbuttondiv{
+  padding: 20px;
 }

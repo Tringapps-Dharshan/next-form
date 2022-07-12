@@ -15,7 +15,15 @@ a {
   box-sizing: border-box;
 }
 
-input{
+input,select,option{
   padding: 10px 20px;
-  color: white;
+  color: #767489;
+}
+
+input[type=radio]{
+  size: 20px;
+}
+
+input[type=date]{
+  text-transform: uppercase;
 }
